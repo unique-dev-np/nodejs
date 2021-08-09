@@ -1,0 +1,33 @@
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 20%;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+      background: #555; 
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgb(23, 20, 39); 
+    }
+
+
+  .home{
+    width: 99%;
+    height: 89vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 0.8%;
+    margin-top: 1.28vh;
+    overflow-y: scroll;
+}

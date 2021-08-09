@@ -1,0 +1,72 @@
+.header{
+    background: #d7eaee;
+    height: 50px;
+    width: 100%;
+    border-bottom: white 2px solid;
+    display: flex;
+}
+.header__left{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: fit-content;
+    display: flex;
+}
+
+.title{
+    text-shadow: 0px 0px 3px blue, 0px 0px 2px red;
+    margin-top: 2px;
+    color: red;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+ .header__logo{
+     border-radius: 50%;
+     margin-left: 10px;
+     /* padding-top: 3px; */
+    height: 49px;
+    width: 49px;
+    /* border: 2px solid red; */
+}
+
+.header__right{
+    margin-left: 8vw;
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+
+.header__items{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 5px; */
+
+}
+
+.header__items li{
+    list-style-type: none;
+}
+
+
+.header__items li a{
+    text-decoration: none;
+    margin-left: 30px;
+    /* font-size: 20px; */
+    transition-duration: 0.5s;
+    text-shadow: 0px 0px 3px black, 0px 0px 2px pink;
+}
+
+.header__items li a:hover{
+    font-size: 25px;
+    color: darkcyan;
+    text-shadow: 0px 0px 1px black, 0px 0px 1px pink;
+}
+
+.actives a {
+    color: blue;
+    font-size: 25px;
+}

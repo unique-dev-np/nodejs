@@ -1,0 +1,12 @@
+.mainimg{
+    height: 90vh;
+    width: 99%;
+    margin-left: 0.5%;
+    z-index: -1;
+    /* border: 2px solid red; */
+}
+
+#bt{
+    position: absolute;
+    left: 50%;
+}
